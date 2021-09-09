@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/**
+ * @author: alexandercds
+ * @description: 
+ * @date: 08/septiembre/2021 
+**/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font: {
+    family: 'Josefin Sans';
+    size: 16px;
+  };
+} 
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.col-content {
+  height: 610px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin: {
+    left: 200px; 
+    right: 200px;
+  }; 
 }
 
-.App-link {
-  color: #61dafb;
+.left {
+  background-image: url('../svgs/bg-pattern-desktop.svg');
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col {
+  height: 810px;
+  display: flex;
+  align-items: center; 
 }
+ 
+ 
