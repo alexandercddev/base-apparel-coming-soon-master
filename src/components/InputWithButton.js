@@ -27,15 +27,17 @@ const InputWithButton = (props) => {
                         },
                         pattern: {
                             value: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/i, 
-                            message: "This is not format"
+                            message: "Please provide a valid email"
                         }
                     })}/> 
                 <input 
                     className="btn arrow" 
-                    type="submit" value="Submit"/>
+                    type="submit" value=""/>
             </form> 
-            <Error errors={errors} validate="required" name={name}/>
-            <Error errors={errors} validate="pattern" name={name}/> 
+            <div className="content-error">
+                <Error errors={errors} validate="required" name={name}/>
+                <Error errors={errors} validate="pattern" name={name}/> 
+            </div>
         </div>
     );
 } 

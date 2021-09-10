@@ -19,7 +19,7 @@ const App = (props) => {
                 <div className="col-content">
                     <Image image={logo}/>
                     <Title>
-                        We're coming soon
+                        <strong>We're</strong> coming soon
                     </Title>
                     <Paragraph>
                         Hello fellow shoppers! We're currently building our new 
@@ -32,7 +32,7 @@ const App = (props) => {
                         placeholder="Email Address" />
                 </div>
             </div>
-            <div className="col right">
+            <div className="col right"> 
                 <Image image={image}/>
             </div> 
         </section>
