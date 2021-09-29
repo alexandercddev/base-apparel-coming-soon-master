@@ -23,4 +23,4 @@ If you find a bug, kindly open an issue [here](https://github.com/alexandercds/b
 - [FRONTEND-MENTOR](https://www.frontendmentor.io/challenges/)
 
 
-© [Alexander Chi](https://github.com/alexandercds)
+© [Alexander Chi](https://alexandercd.dev/)
